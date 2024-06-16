@@ -1,0 +1,6 @@
+When a a port is already in use, use:
+
+lsof -i:<port> eg lsof -i:3000
+Note the PID(Process ID), then use -> kill -9 <port>
+
+nodemon src/index.js -e js,css,ejs

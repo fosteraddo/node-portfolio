@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    /* position: fixed; */
+}
+
+html {
+    /* min-height: 100%; */
+    /* position: relative; */
+    background-color: linear-gradient(to right, #b2d8d9, #c68aa0, #d0cbc0 ); 
+    /* background: fixed; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* height: 100vh; */
+    font-size: 20px;
+  }
+
+  
+/* 
+ body{
+    background: fixed;
+    color: rgb(19, 19, 21);
+    text-align: center;
+    font-size: 30px;
+    background: linear-gradient(to right, #b2d8d9, #c68aa0, #d0cbc0 ); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+.menu {
+    display: flex;
+}
+
+header {
+    display: flex;
+    position: relative;
+}
+
+/* .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 10px;
+    letter-spacing: 5px;
+    background: linear-gradient(to right, #778f90, #5aa4a7, #30a1a5 ); 
+} */
+
+/* a {
+    text-decoration: none;
+    color:  rgb(197, 227, 218);
+    font-size: 2rem;
+} */
+/* nav .container ul li {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #d0cbc0;
+}
+
+nav .container ul li a {
+    color: #d0cbc0;
+}
+
+.navbar-nav  li a:hover {
+    color: #101011 !important;
+    background-color: rgb(0, 128, 128);
+    transition: 0.7s ease-in;
+    border-radius: 20px;
+} */
+
+/* New navbar */
+
+/* body{
+    color: rgb(26, 27, 29);
+} */
+
+
+/* body{ */
+    /* background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(images/Rimg.jpeg); */
+    /* background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(/img/pexels-photo-3635300.jpeg); */
+    /* background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+} */
+
+/* #top-container{
+    color: #fff;
+} */
+
+/* #top-container h1{
+    text-align: center;
+    color: #ffff;
+   
+} */
+
+nav{
+    /* background-color: lime; */
+    background: linear-gradient(to right, #11999E, #8f747d, #ffad06 );
+    color: #ffff;
+    place-items: center;
+    display: flex;
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+nav ul a{
+    display: inline-flex;
+    padding: 30px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 20px;
+}
+
+nav ul a:hover{
+    background: linear-gradient(to right, #11999E, #8f747d, #ffad06 ); 
+    color: white;
+    transition: 0.4s ease-in;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.d-block {
+    width: 90px;
+    height: 120px;
+    margin-left: 20%;
+    margin-right: 20px;
+}
+
+img {
+    width: 150px;
+    height: 180px;
+}
+
+img:hover {
+    width: 200px;
+    transition: 0.5s step-end;
+    transform: rotateX('angle');
+}
+
+.explore{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: none;
+    background-color: #151823;
+    margin-left: 65%; 
+    transition: 0.5s ease-out;
+}
+
+.explore:hover{
+    background: linear-gradient(to right, #11999E, #8f747d, #ffad06 ); 
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: none;
+    margin-left: 65%;
+    transition: 1s ease-in;
+}
+
+.footer-padding {
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    /* background-color: #1abc9c; */
+    /* background-color: #2020c2; */
+    background: linear-gradient(to right, #11999E, #743b4e, #ffad06 ); 
+}
+
+#about img{
+    width: 15%;
+    margin-left: 30%;
+    object-fit: cover;
+}
+
+#about img:hover{
+    rotate: 245deg;
+    transform: scale(1.2);
+    transition: 1s;
+    width: 12%;
+}
+
+
+.footer {
+    margin-top: 40px;
+    font-size: 20px;
+    color: #fff;
+    pointer-events: visible;
+}
+
+
+.footer p {
+    font-size: 12px;
+    color: rgb(173, 195, 212);
+}
+
+/* Box section */
+.box {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgb(133, 125, 125);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+
+  .box-title {
+    color: #160303;
+  }
+
+  .box-content {
+    color: #743b4e;
+  }
